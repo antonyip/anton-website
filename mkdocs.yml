@@ -1,3 +1,40 @@
-site_name: My Docs
-pages:
-  - Home: 'index.md'
+site_name: Anton's Personal Website
+site_description: A wholesome list of projects done by me!
+site_author: Anton Yip
+
+repo_name: antonyip/anton-website
+repo_url: https://github.com/antonyip/anton-website
+copyright: 'Copyright &copy; 2019 Anton Yip'
+
+theme: 'material'
+static_templates:
+  - 404.html
+include_search_page: false
+palette:
+primary: 'Cyan'
+accent: 'Orange'
+
+plugins: []
+
+extra:
+    social:
+    - type: youtube
+      link: http://struct.cc
+    - type: github
+      link: https://github.com/squidfunk
+    - type: twitter
+      link: https://twitter.com/squidfunk
+    - type: linkedin
+      link: https://linkedin.com/in/squidfunk    
+    - type: facebook
+      link: https://linkedin.com/in/squidfunk
+
+    
+
+nav:
+  - About Me: 'index.md'
+  - Achievements: 'achievements.md'
+  - Digital Projects: 'digitalprojects.md'
+  - Physical Projects: 'physicalprojects.md'
+  - Simple Prototypes: 'prototypes.md'
+  - Open Source Contributions: 'opensource.md'
